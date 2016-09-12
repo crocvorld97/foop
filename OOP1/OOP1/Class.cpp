@@ -15,3 +15,8 @@ void FirstClass::messageBox()
 	cout << "Enter your name plz!\n";
 	cin >> name;
 }
+
+void FirstClass::answer()
+{
+	cout << "\nHello - " << name << endl;
+}
